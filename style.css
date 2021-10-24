@@ -1,0 +1,82 @@
+.basic {
+    border: 1px solid red;
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mainpart {
+    border: 1px solid red;
+    align-items: stretch;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-around;
+
+}
+
+section {
+    border: 1px solid red;
+    display: flex;
+    flex-flow: column;
+    width: 50vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+aside {
+    border: 1px solid red;
+    display: flex;
+    flex-flow: row;
+    width: 50vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.box {
+    border: 1px solid red;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    height: 20vh;
+    align-items: flex-end;
+}
+
+.firstrow {
+    border: 1px solid red;
+    display: flex;
+    height: 20vh;
+    width: 25vw;
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.secrow {
+    border: 1px solid red;
+    display: flex;
+    height: 20vh;
+    width: 25vw;
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.thirdrow {
+    border: 1px solid red;
+    display: flex;
+    flex-flow: row;
+    width: 50vw;
+    justify-content: center;
+
+    height: 20vh;
+    align-items: center;
+}
